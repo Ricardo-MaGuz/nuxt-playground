@@ -1,6 +1,11 @@
+<style lang="scss">
+@use "~/assets/scss/main.scss";
+</style>
+<script setup>
+import { ref } from "vue";
+
+const userInput = ref("");
+</script>
 <template>
-  <div>
-    <NuxtRouteAnnouncer />
-    <NuxtWelcome />
-  </div>
+ <h1>Hello Vue</h1>
 </template>
